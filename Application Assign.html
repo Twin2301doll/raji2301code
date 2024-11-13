@@ -1,0 +1,109 @@
+<html>
+<head>
+<title>Forms</title>
+<style>
+body{
+background-image:linear-gradient(lightgreen,yellow);
+}
+</style>
+</head>
+<div id="container">
+<h1>Application Form</h1>
+
+<div>
+
+<label for="fname">First Name:</label>
+
+<input type="text" name="fname" id="fname">
+<br>
+<br>
+<label for="lname" >Last Name:</label>
+
+<input type="text" name="lname" id="lname">
+<br><br>
+</div> 
+
+
+<div>
+
+<label for="dob">Date of birth:</label>
+
+<input type="date" name="dob" id="dob">
+<br>
+<br>
+<label for="age">Age:</label>
+
+<input type="number" name="age" id="age">
+<br>
+<br>
+<label for="gender">Gender:</label>
+
+<select name= "gender" id="gender">
+<br>
+<br>
+<option value="male" selected>Male</option>
+
+<option value="fmale">Female</option>
+<br>
+<br>
+<option value="other">Other</option><br>
+
+</select>
+<br>
+<br>
+<label for="email">Email Address:</label>
+<input type="email" name="email" id="email" placeholder= "Enter email address" >
+</div> 
+<div>
+<br>
+<label for="positions">Positions Available:</label>
+
+<input type="radio" name="positions" id="positions"
+
+value="Junior Developer"> Junior Developer
+
+<input type="radio" name="positions" id="positions"
+
+value="Mid-level Developer"> Mid-level Developer
+
+<input type="radio" name="positions" id="positions"
+
+value="Senior Developer"> Senior Developer
+
+</div> 
+<div>
+<br>
+<label for="Languages">Programming Languages:</label>
+
+<input type="checkbox" name="languages" id="languages" value="Java"> Java
+
+<input type="checkbox" name="languages" id="languages" value="JavaScript"> JavaScript
+
+<input type="checkbox" name="languages" id="languages" value="Python"> Python
+
+</div> 
+<div>
+<br>
+<label for="pword">Password:</label>
+
+<input type="password" name="pword" id="pword">
+<br>
+<br>
+<label for="cpword">Confirm Password:</label>
+
+<input type="password" name="cpword" id="cpword">
+
+</div> 
+
+
+<button class="btn" type="submit">Submit</button>
+
+<button class="btn" type="reset">Reset</button>
+
+</form>
+
+</div>
+
+</body>
+
+</html>
